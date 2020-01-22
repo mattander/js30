@@ -14,3 +14,11 @@ I deleted all the solutions. I'll read the description of what I'm supposed to d
 If I get stumped, I'll watch some of the video to help me get over the obstacle.
 
 I'll keep a log here of my progress and note when I needed to watch the video. Honour system, I promise I'll tell!
+
+## 01 - JavaScript Drum Kit
+I need to hook key events up to matching audio tags and kbd tags. Both of those tags have matching keycodes so I can just listen for keyups on the window and if there's a matching element, play the audio and attach the playing class. When it's done, remove the playing class from the kbd el.
+
+I wrote two functions. One plays the audio. I also added a feature so that if there's currently playing audio, it is stopped and the seeking is set back to 0. That way you don't have a bunch of overlapping audio playing. The other function removes the playing class from the keyboard divs.
+
+I've done this one before so it wasn't too bad. Fun project!
+
